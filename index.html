@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SURYA HACKER OS</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="matrix"></canvas>
+
+<div class="main">
+    <h1>💀 SURYA HACKER OS</h1>
+
+    <!-- Terminal -->
+    <div class="terminal" id="terminal"></div>
+
+    <!-- Input -->
+    <input id="commandInput" placeholder="Type command..." onkeydown="handleCommand(event)">
+
+    <!-- Tools -->
+    <div class="grid">
+
+        <div class="box">
+            <h3>Hash Generator</h3>
+            <input id="hashInput" placeholder="Text">
+            <button onclick="generateHash()">Generate</button>
+            <p id="hashOutput"></p>
+        </div>
+
+        <div class="box">
+            <h3>Password Strength</h3>
+            <input id="passInput" type="password">
+            <button onclick="checkPass()">Check</button>
+            <p id="passOutput"></p>
+        </div>
+
+        <div class="box">
+            <h3>IP Info</h3>
+            <button onclick="getIP()">Scan</button>
+            <p id="ipOutput"></p>
+        </div>
+
+    </div>
+
+    <button onclick="startVoice()">🎤 Voice Command</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
