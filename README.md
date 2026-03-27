@@ -1,6 +1,6 @@
 # SURYA Hacker-Toolkit
 
-«A futuristic hacker-style web toolkit with terminal UI, AI features, and cybersecurity tools — built for learning, fun, and flex 💻🔥»
+« A futuristic hacker-style web toolkit with terminal UI, AI features, and cybersecurity tools — built for learning, fun, and flex 💻🔥 »
 
 ---
 
