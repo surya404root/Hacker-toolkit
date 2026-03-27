@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hacker Toolkit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>💀 HACKER TOOLKIT</h1>
+
+    <!-- Hash Generator -->
+    <div class="box">
+        <h2>Hash Generator (SHA-256)</h2>
+        <input type="text" id="textInput" placeholder="Enter text">
+        <button onclick="generateHash()">Generate</button>
+        <p id="hashOutput"></p>
+    </div>
+
+    <!-- Password Checker -->
+    <div class="box">
+        <h2>Password Strength</h2>
+        <input type="password" id="passwordInput" placeholder="Enter password">
+        <button onclick="checkPassword()">Check</button>
+        <p id="strengthOutput"></p>
+    </div>
+
+    <!-- IP Info -->
+    <div class="box">
+        <h2>Your IP Info</h2>
+        <button onclick="getIP()">Get Info</button>
+        <p id="ipOutput"></p>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
