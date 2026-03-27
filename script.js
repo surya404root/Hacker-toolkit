@@ -98,5 +98,5 @@ function startVoice() {
 // FAKE AI RESPONSES
 setTimeout(() => {
     log("System initialized...");
-    log("Welcome, SURYA 🔥");
+    log("Welcome, HACKER 🔥");
 }, 1000);
