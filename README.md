@@ -33,8 +33,8 @@ surya-hacker-os/
 
 ### 📥 Clone the Repository
 ```
-git clone https://github.com/YOUR_USERNAME/surya-hacker-os.git
-cd surya-hacker-os
+git clone https://github.com/surya404root/Hacker-toolkit.git
+cd Hacker-toolkit
 ```
 ### ▶️ Run the Project
 
