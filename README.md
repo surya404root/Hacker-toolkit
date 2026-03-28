@@ -21,10 +21,14 @@
 
 ## 📁 Project Structure
 
-surya-hacker-os/
+Hacker-toolkit/
+
 │── index.html
+
 │── style.css
+
 │── script.js
+
 │── wordlist.txt
 
 ---
